@@ -4,10 +4,18 @@ a {
 a:hover {
   color: lime;
 }
-
 p {
   font-family: 'arial';
 }
-h1+p {
+h1 + p {
   font-weight: bold;
+}
+.destaque {
+  font-family: 'arial';
+}
+p.destaque {
+  font-weight: bold;
+}
+strong.destaque {
+  color: red;
 }
